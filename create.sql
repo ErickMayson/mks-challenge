@@ -1,8 +1,10 @@
 CREATE TABLE tb_cliente (
     id SERIAL PRIMARY KEY,
-    nome VARCHAR(70) NOT NULL,
-    descricao VARCHAR(255) NOT NULL,
-     endereco VARCHAR(255) NOT NULL
+    title VARCHAR(255) NOT NULL,
+    description VARCHAR(255) NULL,
+    genre VARCHAR(50) NOT NULL,
+    director VARCHAR(70) NOT NULL,
+    year VARCHAR(4) NOT NULL,
 
 );
 
